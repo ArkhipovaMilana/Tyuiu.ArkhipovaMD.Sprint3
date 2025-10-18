@@ -10,7 +10,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task0.V27.Lib
             {
                 res = Math.Pow(4/Math.Pow(i,value), 2);
             }
-            return res;
+            return Math.Round(res,3);
         }
     }
 }
