@@ -8,7 +8,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task0.V27.Lib
             double res=0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                res = Math.Pow(4/Math.Pow(i,value), 2);
+                res += Math.Pow(4/Math.Pow(i,value), 2);
             }
             return Math.Round(res,3);
         }
