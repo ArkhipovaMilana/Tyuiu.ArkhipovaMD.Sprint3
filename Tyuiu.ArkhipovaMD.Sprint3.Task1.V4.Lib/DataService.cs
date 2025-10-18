@@ -6,9 +6,11 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task1.V4.Lib
         public double GetSumSeries(int startValue, int stopValue)
         {
             double res = 0;
-            for (int i = startValue; i <= stopValue; i++)
+            while (startValue<=stopValue) 
             {
-                res += Math.Pow(1 / i, 2);
+                double r =(double) 1/startValue;
+                res +=Math.Pow(r,2);
+                startValue++;
             }
             return Math.Round(res,3);
         }
