@@ -15,7 +15,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task7.V13.Lib
                 }
                 else
                 {
-                    m[cnt] = 3 * x + 2 - ((2 * x - x) / (Math.Cos(x) + 1));
+                    m[cnt] = Math.Round(3 * x + 2 - ((2 * x - x) / (Math.Cos(x) + 1)),2);
                 }
                 cnt++;
             }

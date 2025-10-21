@@ -4,5 +4,5 @@ int b = Convert.ToInt32(Console.ReadLine());
 DataService ds = new DataService();
 foreach (double i in ds.GetMassFunction(a,b))
 {
-    Console.Write(Math.Round(i,2)+"\t");
+    Console.Write(i+"\t");
 }
