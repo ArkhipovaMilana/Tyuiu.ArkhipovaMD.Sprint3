@@ -10,10 +10,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task5.V16.Lib
             {
                 sum += Math.Cos(i) + 4;
             }
-            for (int i = startValue2; i <= stopValue2; i++)
-            {
-                sum += sum;
-            }
+            sum = sum * stopValue2;
             return Math.Round(sum);
         }
     }
