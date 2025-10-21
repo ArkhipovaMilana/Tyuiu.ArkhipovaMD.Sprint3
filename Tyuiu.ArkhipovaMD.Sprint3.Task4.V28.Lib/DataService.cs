@@ -10,7 +10,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task4.V28.Lib
             {
                 if (i !=0)
                 {
-                    ans += (Math.Cos(i) + Math.Sin(i) / i);
+                    ans += ((Math.Cos(i) + Math.Sin(i)) / i);
                 }
             }
             return ans;
