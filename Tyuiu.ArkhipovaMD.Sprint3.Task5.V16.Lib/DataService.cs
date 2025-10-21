@@ -8,14 +8,12 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task5.V16.Lib
             double sum = 0;
             for (int i = startValue2; i <= stopValue2; i++)
             {
-                for (int j = startValue1; j <= stopValue1; j++)
+                for (int k = startValue1; k <= stopValue1; k++)
                 {
-                    sum += Math.Cos(i) + x * x;
+                    sum += Math.Cos(k) + x * x;
                 }
             }
-            sum = sum * stopValue2;
-            return Math.Round(sum,3);
-            
+            return Math.Round(sum, 3);
         }
     }
 }

@@ -1,8 +1,8 @@
 ﻿using Tyuiu.ArkhipovaMD.Sprint3.Task5.V16.Lib;
-int x = Convert.ToInt32(Console.ReadLine());
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = Convert.ToInt32(Console.ReadLine());
-int d = Convert.ToInt32(Console.ReadLine());
 DataService ds = new DataService();
-Console.WriteLine(ds.GetSumSumSeries(x,a,b,c,d));
+int x = 2;
+int startvalue1 = 1;
+int stopvalue1 = 10;
+int startvalue2 = 1;
+int stopvalue2 = 3;
+Console.WriteLine(ds.GetSumSumSeries(x, startvalue1, startvalue2, stopvalue1, stopvalue2));
