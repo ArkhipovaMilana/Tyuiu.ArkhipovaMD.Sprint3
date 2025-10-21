@@ -8,8 +8,8 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task2.V4.Lib
             double r = 1;
             do
             {
-                double re = Math.Pow((double)startValue / (double)Math.Pow((double)Math.Sin(1), -7), -2);
-                r = (double)r * re;
+                double re = Math.Pow((double)startValue / Math.Pow(Math.Sin(1), -7), -2);
+                r = r * re;
                 startValue++;
             }while (startValue<=stopValue);
             return Math.Round(r,3);
