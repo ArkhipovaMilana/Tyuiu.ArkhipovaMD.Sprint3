@@ -13,7 +13,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task4.V28.Lib
                     ans += ((Math.Cos(i) + Math.Sin(i)) / i);
                 }
             }
-            return ans;
+            return Math.Round(ans,3);
         }
     }
 }
