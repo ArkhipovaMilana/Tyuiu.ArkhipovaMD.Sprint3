@@ -8,10 +8,14 @@ namespace Tyuiu.ArkhipovaMD.Sprint3.Task5.V16.Lib
             double sum = 0;
             for (int i = startValue1; i <= stopValue1; i++)
             {
-                sum += Math.Cos(i) + Math.Pow(x,2);
+                sum += (double)Math.Cos(i);
             }
-            sum = sum * stopValue2;
-            return Math.Round(sum);
+            for (int i = startValue2; i <= stopValue2; i++)
+            {
+                sum = +sum;
+            }
+            return Math.Round(sum+Math.Pow(x,2),3);
+            
         }
     }
 }
